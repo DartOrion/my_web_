@@ -1,0 +1,38 @@
+/* селектор тега */
+header {
+    /* свойства: значения */
+    background-color: rgba(11, 69, 194, 0.863);
+}
+
+div {
+    background-color: rgb(159, 161, 26);
+    border: 2px solid rgba(11, 69, 194, 0.863);
+}
+
+
+footer {background-color: chocolate;}
+
+/* селектор группы тегов */
+div, footer {
+    /* свойство внешних отступов  */
+    margin: 10px;
+    /* свойства внутренних отступов */
+    padding: 10px;
+    /* border: 8px solid rgba(180, 56, 114, 0.863);  */
+}
+/* Селектор по классу */
+.block_1 {
+    background-color: salmon;
+}
+.block_2 {
+    background-color: seashell;
+}
+
+/* Селектор дочернего эелемента */
+.block_2 p {
+    height: 50px;
+}
+/* Селектор по идентивикатору */
+#p2 {
+    color: rgb(0, 0, 0);
+}
